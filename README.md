@@ -54,33 +54,36 @@ The GUI allows users to:
 ---
 ## How to Run Locally
 
-```bash
 # 1. Clone the Repository
+```bash
 git clone https://github.com/paakhipriya10/Sonar-Vs-RockMine-Prediction.git
 cd Sonar-Vs-RockMine-Prediction
  ```
 
-```bash
 # 2. Install Python (if not already installed)
+```bash
 # Visit: https://www.python.org/downloads/
 ```
-```bash
+
 # 3. Install Required Libraries
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 ```
-```bash
+
 # 4. Train the Models
+```bash
 python train_models.py
 ```
-```bash
+
 # 5. Run the GUI
+```bash
 python ml_gui.py
 ```
-```bash
+
 # 6. Provide Input
 # → The GUI will  load/upload and predict:
 # → You can also enter 60 comma-separated values manually in the GUI
- ```
+ 
 
 ---
 
