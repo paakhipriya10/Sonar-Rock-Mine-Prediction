@@ -54,7 +54,7 @@ The GUI allows users to:
 ---
 ## How to Run Locally
 
-# 1. Clone the Repository
+## 1. Clone the Repository
 ```bash
 git clone https://github.com/paakhipriya10/Sonar-Vs-RockMine-Prediction.git
 cd Sonar-Vs-RockMine-Prediction
