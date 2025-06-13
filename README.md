@@ -52,6 +52,50 @@ The GUI allows users to:
 - View the predicted output based on the best trained model.
 
 ---
+## How to Run Locally
+
+```bash
+# 1. Clone the Repository
+git clone https://github.com/paakhipriya10/Sonar-Vs-RockMine-Prediction.git
+cd Sonar-Vs-RockMine-Prediction
+bash
+Copy
+Edit
+# 2. Install Python (if not already installed)
+# Visit: https://www.python.org/downloads/
+bash
+Copy
+Edit
+# 3. Install Required Libraries
+pip install pandas numpy matplotlib seaborn scikit-learn joblib
+bash
+Copy
+Edit
+# 4. Train the Models
+python train_models.py
+bash
+Copy
+Edit
+# 5. Run the GUI
+python ml_gui.py
+bash
+Copy
+Edit
+# 6. Provide Input
+# → The GUI will  load/upload and predict:
+# → You can also enter 60 comma-separated values manually in the GUI
+
+---
+
+##Future Improvements
+- Replace Tkinter with a web-based UI using Flask or Streamlit  
+- Deploy the project on Render or Heroku  
+- Add automated hyperparameter tuning (e.g., GridSearchCV)  
+- Explore Deep Learning alternatives for improved accuracy  
+- Use real-time sonar signal input (IoT integration)  
+- Package the app with an installer for non-technical users
+
+---
 
 ## Output Screenshots:
 
