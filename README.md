@@ -60,34 +60,34 @@ git clone https://github.com/paakhipriya10/Sonar-Vs-RockMine-Prediction.git
 cd Sonar-Vs-RockMine-Prediction
  ```
 
-# 2. Install Python (if not already installed)
+## 2. Install Python (if not already installed)
 
 [Download Python](https://www.python.org/downloads/)
 
 
-# 3. Install Required Libraries
+## 3. Install Required Libraries
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 ```
 
-# 4. Train the Models
+## 4. Train the Models
 ```bash
 python train_models.py
 ```
 
-# 5. Run the GUI
+## 5. Run the GUI
 ```bash
 python ml_gui.py
 ```
 
-# 6. Provide Input
-# → The GUI will  load/upload and predict:
-# → You can also enter 60 comma-separated values manually in the GUI
+## 6. Provide Input
+## → The GUI will  load/upload and predict:
+## → You can also enter 60 comma-separated values manually in the GUI
  
 
 ---
 
-##Future Improvements
+## Future Improvements
 - Replace Tkinter with a web-based UI using Flask or Streamlit  
 - Deploy the project on Render or Heroku  
 - Add automated hyperparameter tuning (e.g., GridSearchCV)  
