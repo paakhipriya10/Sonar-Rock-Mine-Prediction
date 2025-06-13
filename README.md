@@ -81,8 +81,8 @@ python ml_gui.py
 ```
 
 ## 6. Provide Input
-## → The GUI will  load/upload and predict:
-## → You can also enter 60 comma-separated values manually in the GUI
+ - The GUI will  load/upload and predict:
+ - You can also enter 60 comma-separated values manually in the GUI
  
 
 ---
