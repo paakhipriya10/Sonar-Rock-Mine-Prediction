@@ -61,26 +61,37 @@ cd Sonar-Vs-RockMine-Prediction
 bash
 Copy
 Edit
+ ```
+
+```bash
 # 2. Install Python (if not already installed)
 # Visit: https://www.python.org/downloads/
 bash
 Copy
 Edit
+```
+```bash
 # 3. Install Required Libraries
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 bash
 Copy
 Edit
+```
+```bash
 # 4. Train the Models
 python train_models.py
 bash
 Copy
 Edit
+```
+```bash
 # 5. Run the GUI
 python ml_gui.py
 bash
 Copy
 Edit
+```
+```bash
 # 6. Provide Input
 # → The GUI will  load/upload and predict:
 # → You can also enter 60 comma-separated values manually in the GUI
