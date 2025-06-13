@@ -62,7 +62,7 @@ cd Sonar-Vs-RockMine-Prediction
 
 # 2. Install Python (if not already installed)
 ```bash
-Visit: https://www.python.org/downloads/
+[Download Python](https://www.python.org/downloads/)
 ```
 
 # 3. Install Required Libraries
