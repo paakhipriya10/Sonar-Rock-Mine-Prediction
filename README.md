@@ -12,7 +12,7 @@ The task is to classify sonar signals as either R (Rock) or M (Mine) based on 60
 
 ## Solution Approach
 
-- Preprocess and split the `sonar.csv` dataset.
+- Split the `pre-processed clean sonar.csv` dataset.
 - Train 4 classifiers:
   - Batch Learning: Logistic Regression, K-Nearest Neighbors (k=3), Random Forest
   - Online Learning: SGD Classifier
